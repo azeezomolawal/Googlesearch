@@ -1,0 +1,96 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.head {
+    display: flex;
+    justify-content: right;
+    font-size: 13.5px;
+}
+
+.head a {
+    text-decoration: none;
+    color: green;   
+}
+
+.head a:hover {
+    text-decoration: underline;
+}
+
+.links {
+    margin: 10px;
+}
+
+.logo {
+    display: flex;
+   justify-content: center;
+   margin: 10rem 0 0 0rem;
+}
+
+.T8VaVe {
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: absolute;
+    top: 279px;
+    left: 880px;
+    bottom: 0;
+    white-space: nowrap;
+}
+
+
+#logo {
+    width: fit-content;
+}
+
+.search {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 1.5rem;
+    border: 1px solid rgb(223, 220, 220);
+    height: 35px;
+    border-radius: 50px;
+    width: 38%;
+    height: 43px;
+    align-items: center;
+}
+
+.search:hover {
+    box-shadow: 0.7px 0.7px 0.7px 0.7px rgb(235, 228, 228);
+}
+
+.scan {
+    width: 8%;
+    display: flex;
+    justify-content: center;
+}
+
+.search-field {
+    width: 68%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+.mic, .mic-2 {
+    width: 8%;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}

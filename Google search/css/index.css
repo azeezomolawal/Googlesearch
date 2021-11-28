@@ -1,0 +1,137 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.head {
+    display: flex;
+    justify-content: right;
+    font-size: 13.5px;
+}
+
+.links {
+    margin: 10px;
+}
+
+
+.head a {
+    text-decoration: none;
+    color: green;   
+}
+
+.head a:hover {
+    text-decoration: underline;
+}
+
+
+/*The Logo Styles*/
+
+.logo {
+    display: flex;
+   justify-content: center;
+    margin-top: 8.5rem;
+
+}
+
+#logo {
+    width: fit-content;
+}
+
+/*Search Styles*/
+
+.search {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.search-1 {
+    border: 1px solid #dfe1e5;
+    border-radius: 2.5rem;
+    width: 36%;
+    height: 45px;
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
+}
+
+.search-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;   
+}
+
+.search-1:hover {
+    box-shadow: 0.7px 0.7px 0.7px 0.7px rgb(235, 228, 228);
+    
+}
+
+input {
+    border: none;
+    width: 100%;
+    height: 90%;
+    outline: none;
+}
+
+.search-field {
+    width: 80%;
+    height: 95%;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.scan {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 10%;
+}
+
+.mic {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    width: 33.33;
+}
+
+#voice:hover {
+    cursor: pointer;
+}
+
+
+
+/* Buttons under search designs */
+
+.button {
+    display: flex;
+    height: 2.5rem;
+    border: none;
+    justify-content: center;
+    margin: 1.5rem;
+
+}
+
+.search-btn {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.btn {
+    border: none;
+    margin: 0 0.3rem 0 0.3rem;
+    background-color: rgb(242, 247, 247);
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
